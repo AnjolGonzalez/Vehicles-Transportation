@@ -1,11 +1,19 @@
 package com.pluralsight;
 
 public class Vehicle {
-    private String color = "";
-    private int numberOfPassengers = 0;
-    private int cargoCapacity = 0;
-    private int fuelCapacity = 0;
-    private boolean isPublic = false;
+    private String color;
+    private int numberOfPassengers;
+    private int cargoCapacity;
+    private int fuelCapacity;
+    private boolean isPublic;
+
+    public Vehicle() {
+        this.color = color;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+        this.isPublic = isPublic;
+    }
 
     public String getColor() {
         return color;

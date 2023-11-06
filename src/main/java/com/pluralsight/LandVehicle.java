@@ -6,6 +6,10 @@ public class LandVehicle extends Vehicle {
     private String carType;
     private int numberOfTires;
 
+    public LandVehicle(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, boolean isPublic) {
+        super();
+    }
+
     public String getMake() {
         return make;
     }
